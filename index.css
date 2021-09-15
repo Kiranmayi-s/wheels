@@ -13,7 +13,7 @@ body{
       align-content: center;
     }
   }
-@media (max-width: 500px){
+@media (min-width: 500px){
     label{
         width: 150px;
     }
