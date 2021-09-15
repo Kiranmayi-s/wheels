@@ -1,9 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Varta:wght@300;400;500&display=swap");
 body{
     background-image: url("bg-cover.png");
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-style: normal;
-  font-weight: 200;
-  font-size: medium;
 }
 @media (min-width: 500px) {
     .wrapper {
