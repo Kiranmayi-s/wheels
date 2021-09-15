@@ -34,6 +34,14 @@ function slidefun(){
         document.getElementById("revslide").style.height = "30px";
         document.getElementById("revslide").style.width = "35px";
         document.getElementById("slidefront").src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWh2FEvzrQgGsbDLY9YE9HGAj1sBnT2_PUjg&usqp=CAU";
+      for(let i=0;i<3;i++){
+                document.getElementsByClassName("card")[i].style.height =  "250px";
+                document.getElementsByClassName("card")[i].style.width = "250px";
+                document.getElementsByClassName("image")[i].style.width = "150px";
+                document.getElementsByClassName("image")[i].style.height = "150px";
+                document.getElementsByClassName("image")[i].style.marginLeft = "50px";
+                document.getElementsByClassName("card")[i].style.border = "1px solid white";
+        } 
     }
 function sliderev(){
         document. location. reload();
