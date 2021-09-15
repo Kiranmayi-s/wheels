@@ -13,6 +13,11 @@ body{
       align-content: center;
     }
   }
+@media (max-width: 500px){
+    label{
+        width: 150px;
+    }
+}
   .container{
     height: 705px;
     width: 1152px;
