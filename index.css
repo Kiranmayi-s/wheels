@@ -46,6 +46,17 @@ body{
   .arrow{
     border-radius: 40%;
   }
+  @media only screen and (max-width: 576px) {
+    div.content {
+      width: 300px;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+  div.content {
+    width: 1000px;
+  }
+}
 
 
 
