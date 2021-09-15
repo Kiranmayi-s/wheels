@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Varta:wght@300;400;500&display=swap");
 body{
     background-image: url("bg-cover.png");
-    font-style: italic;
 }
 @media (min-width: 500px) {
     .wrapper {
@@ -11,11 +10,10 @@ body{
       align-content: center;
     }
   }
-@media (min-width: 500px){
     label{
-        width: 150px;
+        font-style: italic;
     }
-}
+
   .container{
     height: 705px;
     width: 1152px;
