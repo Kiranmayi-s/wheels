@@ -1,5 +1,5 @@
 function Zoom(card,img){
-    if(document.getElementById(card).style.height === "300px"){
+    if(document.getElementById(card).style.height === "350px"){
         document.getElementById(card).style.height = "250px"
         document.getElementById(card).style.width = "250px";
         document.getElementById(img).style.height = "150px";
@@ -15,10 +15,10 @@ function Zoom(card,img){
                 document.getElementsByClassName("image")[i].style.marginLeft = "50px";
                 document.getElementsByClassName("card")[i].style.border = "1px solid white";
             } 
-        document.getElementById(card).style.height = "300px";
-        document.getElementById(card).style.width = "250px";
-        document.getElementById(img).style.height = "200px";
-        document.getElementById(img).style.width = "200px";
+        document.getElementById(card).style.height = "350px";
+        document.getElementById(card).style.width = "300px";
+        document.getElementById(img).style.height = "250px";
+        document.getElementById(img).style.width = "250px";
         document.getElementById(img).style.marginLeft = "25px";
         document.getElementById(card).style.border = "2px solid grey";
         }
