@@ -10,10 +10,6 @@ body{
       align-content: center;
     }
   }
-    label{
-        font-style: italic;
-    }
-
   .container{
     height: 705px;
     width: 1152px;
@@ -49,12 +45,14 @@ body{
   @media only screen and (max-width: 576px) {
     div.content {
       width: 300px;
+      font-style: italic;
     }
 }
 
 @media only screen and (min-width: 576px) {
   div.content {
     width: 1000px;
+    font-style: italic;
   }
 }
 
