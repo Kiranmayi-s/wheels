@@ -1,25 +1,25 @@
 function Zoom(card,img){
-if(document.getElementById(card).style.height === "350px"){
-    document.getElementById(card).style.height = "250px"
-    document.getElementById(card).style.width = "250px";
-    document.getElementById(img).style.height = "150px";
-    document.getElementById(img).style.width = "150px";
-    document.getElementById(img).style.marginLeft = "50px";
-    }else{
-        for(let i=0;i<3;i++){
-            document.getElementsByClassName("card")[i].style.height =  "250px";
-            document.getElementsByClassName("card")[i].style.width = "250px";
-            document.getElementsByClassName("image")[i].style.width = "150px";
-            document.getElementsByClassName("image")[i].style.height = "150px";
-            document.getElementsByClassName("image")[i].style.marginLeft = "50px";
-        } 
-    document.getElementById(card).style.height = "350px";
-    document.getElementById(card).style.width = "250px";
-    document.getElementById(img).style.height = "200px";
-    document.getElementById(img).style.width = "200px";
-    document.getElementById(img).style.marginLeft = "25px";
+    if(document.getElementById(card).style.height === "300px"){
+        document.getElementById(card).style.height = "250px"
+        document.getElementById(card).style.width = "250px";
+        document.getElementById(img).style.height = "150px";
+        document.getElementById(img).style.width = "150px";
+        document.getElementById(img).style.marginLeft = "50px";
+        }else{
+            for(let i=0;i<3;i++){
+                document.getElementsByClassName("card")[i].style.height =  "250px";
+                document.getElementsByClassName("card")[i].style.width = "250px";
+                document.getElementsByClassName("image")[i].style.width = "150px";
+                document.getElementsByClassName("image")[i].style.height = "150px";
+                document.getElementsByClassName("image")[i].style.marginLeft = "50px";
+            } 
+        document.getElementById(card).style.height = "300px";
+        document.getElementById(card).style.width = "250px";
+        document.getElementById(img).style.height = "200px";
+        document.getElementById(img).style.width = "200px";
+        document.getElementById(img).style.marginLeft = "25px";
+        }
     }
-}
 function slidefun(){
         document.getElementById("img1").src = "wgu.png";
         document.getElementById("img2").src = "wjr.png";
