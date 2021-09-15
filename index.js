@@ -24,9 +24,9 @@ function slidefun(){
         document.getElementById("img1").src = "wgu.png";
         document.getElementById("img2").src = "wjr.png";
         document.getElementById("img3").src = "wp6.png";
-        document.getElementById("content1").innerText = "Tires can include natural rubber, synthetic rubber, steel, nylon, silica (derived from sand), polyester, carbon etc."
-        document.getElementById("content2").innerText = "A modern tire on a passenger car will contain up to 25 components and also as many as 12 different."
-        document.getElementById("content3").innerText = "Steel wire is used in the tire belts and beads, and the plies for truck tires. The belts under the tread serve to stiffen.";
+        document.getElementById("content1").innerText = "Tires can include natural <b>rubber, synthetic rubber, steel, nylon, </b>silica (derived from sand), polyester, carbon etc."
+        document.getElementById("content2").innerText = "A modern tire on a passenger car will contain up to<b> 25 components</b> and also as many as<b> 12 different</b>."
+        document.getElementById("content3").innerText = "<b>Steel wire</b> is used in the <b>tire belts and beads</b>, and the plies for<b> truck tires</b>. The belts under the tread serve to stiffen.";
         document.getElementById("revslide").src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqQA8DCzSOlHz3KKV7vEB6_-DcAdoAioBnSQju2vwz5B9TutYyKQtOSOVVJwusB6NDgw0&usqp=CAU";
         document.getElementById("revslide").style.height = "30px";
         document.getElementById("revslide").style.width = "35px";
